@@ -32,7 +32,7 @@ The ultimate Instagram enhancement tweak for jailbroken iOS devices. Features st
 3. Tap **+** to add a new source
 4. Enter the repository URL:
    ```
-   https://your-repo-url.github.io/InstagramRepo/repo
+  https://github.com/umairkhan40/Instagramtweak/InstagramRepo/repo
    ```
 5. Search for **Rhino**
 6. Tap **Install** then **Confirm**
