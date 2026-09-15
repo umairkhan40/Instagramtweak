@@ -1,0 +1,8 @@
+Origin: Rhino Instagram Repo
+Label: Rhino Instagram Repo
+Suite: stable
+Version: 1.0
+Codename: iphone
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: The ultimate Instagram enhancement tweak repository with story/reel downloading, anonymous story viewing, HiFi audio, and much more.
