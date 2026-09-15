@@ -1,0 +1,9 @@
+Package: com.rhino.prefs
+Name: Rhino Prefs
+Depends: preferenceloader, com.rhino.instagram
+Version: 2.4.1
+Architecture: iphoneos-arm
+Description: Preference bundle for Rhino Instagram tweak
+Maintainer: RhinoDev
+Author: RhinoDev
+Section: Tweaks

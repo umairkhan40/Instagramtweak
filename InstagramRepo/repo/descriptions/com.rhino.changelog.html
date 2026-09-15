@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhino - Changelog</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #1a1a2e; color: #fff; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .version { margin-bottom: 30px; padding: 20px; background: #16213e; border-radius: 16px; border-left: 4px solid #FF416C; }
+        .version-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+        .version-number { font-size: 20px; font-weight: 700; color: #FF416C; }
+        .version-date { font-size: 13px; color: #888; }
+        .version ul { list-style: none; padding: 0; }
+        .version li { padding: 4px 0; font-size: 14px; color: #ccc; }
+        .version li::before { content: "• "; color: #FF416C; }
+        .new { color: #00b894; font-weight: 600; }
+        .fix { color: #fdcb6e; }
+        .improved { color: #74b9ff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:center; margin-bottom:30px; font-size:32px; color:#FF416C;">Changelog</h1>
+
+        <div class="version">
+            <div class="version-header">
+                <span class="version-number">v2.4.1</span>
+                <span class="version-date">September 2026</span>
+            </div>
+            <ul>
+                <li><span class="new">NEW:</span> HiFi Audio enhancement for Reels</li>
+                <li><span class="new">NEW:</span> Voice message download support</li>
+                <li><span class="improved">IMPROVED:</span> Anonymous story viewing now works with iOS 17</li>
+                <li><span class="fix">FIXED:</span> Download button not showing on some story types</li>
+                <li><span class="fix">FIXED:</span> Analytics blocker crash on launch</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <div class="version-header">
+                <span class="version-number">v2.4.0</span>
+                <span class="version-date">August 2026</span>
+            </div>
+            <ul>
+                <li><span class="new">NEW:</span> Reels download support</li>
+                <li><span class="new">NEW:</span> Feed media long-press download</li>
+                <li><span class="new">NEW:</span> Hide seen stories in tray</li>
+                <li><span class="improved">IMPROVED:</span> Faster story download speeds</li>
+                <li><span class="fix">FIXED:</span> Ad blocker bypassing some sponsored posts</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <div class="version-header">
+                <span class="version-number">v2.3.0</span>
+                <span class="version-date">July 2026</span>
+            </div>
+            <ul>
+                <li><span class="new">NEW:</span> Anonymous story viewing</li>
+                <li><span class="new">NEW:</span> Ad blocker for feed & stories</li>
+                <li><span class="new">NEW:</span> Disable typing indicator</li>
+                <li><span class="new">NEW:</span> Disable read receipts</li>
+                <li><span class="improved">IMPROVED:</span> Download button UI redesign</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <div class="version-header">
+                <span class="version-number">v2.0.0</span>
+                <span class="version-date">June 2026</span>
+            </div>
+            <ul>
+                <li><span class="new">NEW:</span> Initial release</li>
+                <li><span class="new">NEW:</span> Story video & image download</li>
+                <li><span class="new">NEW:</span> Settings bundle with PreferenceLoader</li>
+                <li><span class="new">NEW:</span> Analytics blocking</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

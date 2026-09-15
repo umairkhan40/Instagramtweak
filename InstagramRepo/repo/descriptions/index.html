@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhino - Instagram Tweak</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: linear-gradient(135deg, #0c0c1d 0%, #1a1a2e 50%, #16213e 100%); color: #fff; min-height: 100vh; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; padding: 60px 20px 40px; }
+        .app-icon { width: 120px; height: 120px; border-radius: 28px; margin: 0 auto 20px; background: linear-gradient(135deg, #FF416C, #FF4B2B); display: flex; align-items: center; justify-content: center; font-size: 64px; box-shadow: 0 10px 40px rgba(255, 65, 108, 0.3); }
+        .header h1 { font-size: 42px; margin-bottom: 8px; }
+        .header .subtitle { font-size: 16px; color: #aaa; margin-bottom: 16px; }
+        .stats { display: flex; justify-content: center; gap: 40px; margin: 20px 0; }
+        .stat { text-align: center; }
+        .stat-value { font-size: 24px; font-weight: 700; color: #FF4B2B; }
+        .stat-label { font-size: 12px; color: #888; margin-top: 4px; }
+        .badges { display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap; }
+        .badge { padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; }
+        .badge-red { background: rgba(255, 65, 108, 0.2); color: #FF416C; border: 1px solid rgba(255, 65, 108, 0.3); }
+        .badge-green { background: rgba(0, 184, 148, 0.2); color: #00b894; border: 1px solid rgba(0, 184, 148, 0.3); }
+        .badge-blue { background: rgba(9, 132, 227, 0.2); color: #0984e3; border: 1px solid rgba(9, 132, 227, 0.3); }
+        .section { margin: 30px 0; }
+        .section h2 { font-size: 20px; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #2a2a4a; }
+        .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .feature-item { background: rgba(255,255,255,0.05); border-radius: 12px; padding: 16px; }
+        .feature-item h4 { font-size: 14px; color: #FF4B2B; margin-bottom: 6px; }
+        .feature-item p { font-size: 12px; color: #999; line-height: 1.5; }
+        .install-box { background: linear-gradient(135deg, #16213e, #0f3460); border-radius: 16px; padding: 24px; text-align: center; margin: 30px 0; border: 1px solid #2a2a4a; }
+        .install-box h3 { margin-bottom: 12px; }
+        .install-box code { display: block; background: #000; padding: 12px; border-radius: 8px; font-size: 13px; color: #00b894; margin: 12px 0; word-break: break-all; }
+        .install-box p { font-size: 13px; color: #888; }
+        .footer { text-align: center; padding: 40px 0; color: #555; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">🦏</div>
+            <h1>Rhino</h1>
+            <p class="subtitle">The Ultimate Instagram Enhancement Tweak</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value">2.4.1</div>
+                    <div class="stat-label">Version</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">iOS 13+</div>
+                    <div class="stat-label">Minimum</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">arm64</div>
+                    <div class="stat-label">Architectures</div>
+                </div>
+            </div>
+            <div class="badges">
+                <span class="badge badge-red">Free</span>
+                <span class="badge badge-green">Open Source</span>
+                <span class="badge badge-blue">Sileo Compatible</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h4>📥 Story Downloader</h4>
+                    <p>Download any story video or image with a single tap. Auto-saves to camera roll.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>📱 Reels Downloader</h4>
+                    <p>Save any reel to your device for offline viewing anytime.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>👻 Anonymous Story View</h4>
+                    <p>View stories without appearing in the viewers list. 100% hidden.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🎵 HiFi Audio</h4>
+                    <p>Enhanced audio quality for music and reels. Crystal clear sound boost.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🚫 Ad Blocker</h4>
+                    <p>Remove all sponsored posts from feed and stories completely.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🔒 Privacy Tools</h4>
+                    <p>Disable typing indicators, read receipts, and tracking.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🎤 Voice Message Download</h4>
+                    <p>Save voice messages and audio from DMs to your device.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>👁 Hide Seen Stories</h4>
+                    <p>Remove seen indicators from stories in your tray.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>📊 Analytics Blocker</h4>
+                    <p>Block Instagram tracking and analytics completely.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>❤️ Hide Like Counts</h4>
+                    <p>Option to hide like counts on posts.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="install-box">
+            <h3>Installation</h3>
+            <p>Add this repository to Sileo, Zebra, or Cydia:</p>
+            <code>https://your-repo-url.github.io/InstagramRepo/repo</code>
+            <p>Search for "Rhino" and install. Respring your device after installation.</p>
+        </div>
+
+        <div class="section">
+            <h2>Compatibility</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h4>Requirements</h4>
+                    <p>Jailbroken iOS device with Sileo, Zebra, or Cydia package manager</p>
+                </div>
+                <div class="feature-item">
+                    <h4>iOS Versions</h4>
+                    <p>iOS 13.0 through iOS 17.x</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Rhino Instagram Tweak v2.4.1</p>
+            <p>Built for the jailbreak community</p>
+        </div>
+    </div>
+</body>
+</html>
