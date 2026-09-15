@@ -3,6 +3,16 @@ Label: Rhino Instagram Repo
 Suite: stable
 Version: 1.0
 Codename: iphone
+Build-Date: Tue, 15 Sep 2026 09:14:48 UTC
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: The ultimate Instagram enhancement tweak repository with story/reel downloading, anonymous story viewing, HiFi audio, and much more.
+MD5Sum:
+ 9405e2ece97d87e32048cc53ae6801ce 1004 Packages
+ a4d2cf7a00690672531b36dee67d6976 494 Packages.bz2
+SHA1:
+ 1b05df387fd2090b7f266f32e91afb5c5f3eb29a 1004 Packages
+ bd5cf6ebe5fcee0293c79a441361da5b56b290f3 494 Packages.bz2
+SHA256:
+ 8d9d331fd9e722929d9d66d04fea9685276402d670d7fd086dda9cfafc7eae62 1004 Packages
+ 2f62ee86d95bba1dcedecaa265781a758276fd4c845dc16a2ffc8e682809d38c 494 Packages.bz2

@@ -25,15 +25,24 @@ The ultimate Instagram enhancement tweak for jailbroken iOS devices. Features st
 
 ## Installation
 
-### Add Repository to Sileo
+### ⚠️ IMPORTANT — GitHub Pages must be enabled
+
+Sileo **cannot** read a `github.com` URL. The repo must be hosted as static files via **GitHub Pages** (`github.io`). If Pages is not enabled, sources will fail with a 404.
+
+**Option A (automatic):** The included GitHub Actions workflow builds the `.deb` files and deploys Pages automatically on every push. Enable Pages in **Settings → Pages → Source: GitHub Actions**, then push to `main`.
+
+**Option B (manual):** Enable Pages in **Settings → Pages → Deploy from branch → main → / (root)**.
+
+Then add the repo to Sileo:
 
 1. Open **Sileo**
 2. Go to **Sources** tab
 3. Tap **+** to add a new source
 4. Enter the repository URL:
    ```
-   https://github.com/umairkhan40.github.io/InstagramRepo/repo
+   https://umairkhan40.github.io/Instagramtweak/
    ```
+   > GitHub Pages URLs are always `https://<username>.github.io/<repo>/`. When using the workflow deploy, the URL is exactly this. If you deploy the whole repo manually from the branch root, use `https://umairkhan40.github.io/Instagramtweak/repo/`.
 5. Search for **Rhino**
 6. Tap **Install** then **Confirm**
 7. **Respring** your device

@@ -1,13 +1,31 @@
+Package: com.rhino.instagram
+Name: Rhino
+Version: 2.4.1
+Architecture: iphoneos-arm
+Maintainer: RhinoDev
+Author: RhinoDev
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Installed-Size: 512
+Section: Tweaks
+Description: The ultimate Instagram enhancement tweak. Download stories, reels, videos, view stories anonymously, HiFi audio, disable ads and much more.
+Filename: pool/main/r/com.rhino.instagram_2.4.1_iphoneos-arm.deb
+Size: 245760
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+Priority: optional
+Essential: no
+
 Package: com.rhino.prefs
 Name: Rhino Prefs
 Version: 2.4.1
 Architecture: iphoneos-arm
 Maintainer: RhinoDev
-Depends: preferenceloader, com.rhino.instagram
-Description: Preference bundle for Rhino Instagram tweak
-Section: Tweaks
-Size: 61440
-Filename: pool/main/r/rhinoprefs_2.4.1_iphoneos-arm.deb
-SHA256: 0000000000000000000000000000000000000000000000000000000000000000
 Author: RhinoDev
-Name: Rhino Prefs
+Depends: preferenceloader, com.rhino.instagram
+Installed-Size: 128
+Section: Tweaks
+Description: Preference bundle for Rhino Instagram tweak
+Filename: pool/main/r/com.rhino.prefs_2.4.1_iphoneos-arm.deb
+Size: 61440
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+Priority: optional
+Essential: no
